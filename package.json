@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
-  
   "scripts": {
-    "start": "ts-node index.ts",
+    "start": "npx esrun --watch index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "esrun": "^3.2.26",
     "express": "^4.19.2",
     "mysql2": "^3.10.2"
   },

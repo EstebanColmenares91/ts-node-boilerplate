@@ -5,7 +5,7 @@ import { whitelist } from "./src/consts/whitelist";
 import { appRouting } from "./src/router";
 
 const app: Express = express()
-const port: string | number = process.env.PORT ?? 3000
+const port: string | number = process.env.PORT ?? 4000
 
 const originConfig: CorsOptions = {
     origin: (origin: any, callback: any) => {

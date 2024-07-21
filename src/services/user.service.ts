@@ -4,6 +4,6 @@ export class UserService {
     constructor () {}
 
     static async getUsers() {
-        return UserModel.getUsers
+        return await UserModel.getUsers()
     }
 }

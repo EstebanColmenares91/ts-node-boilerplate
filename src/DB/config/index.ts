@@ -3,5 +3,5 @@ export const mySQLConfig = {
     user: 'root',
     password: '',
     database: 'prueba',
-    port: 8080
+    port: 3306
 }
